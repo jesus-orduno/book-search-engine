@@ -18,6 +18,8 @@ The application is deployed to Heroku with a MongoDB database hosted on MongoDB 
 
 This is a demonstration of the application using `npm` to run the application in development mode. Heroku deployment was not possible due to errors. Still trying to troubleshoot.
 
+[jesus-orduno-book-search-engine-demo.webm](https://user-images.githubusercontent.com/107074271/205896412-e754c7a4-2d7b-4f73-958c-adca4d6a8af6.webm)
+
 ## Link to Deployed Application
 
 The link below is to the Heroku deployment of the application. The application is not fully functional due to errors.
