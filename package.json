@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
-  "scripts": {   
+  "scripts": {
     "start": "serve -s build",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
@@ -19,6 +19,7 @@
     "node": ">=16.0.0 <17.0.0"
   },
   "dependencies": {
+    "react-scripts": "^5.0.1",
     "serve": "^14.1.2"
   }
 }
