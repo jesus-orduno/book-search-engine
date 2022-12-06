@@ -14,10 +14,12 @@ The application is deployed to Heroku with a MongoDB database hosted on MongoDB 
 - Run `npm install` to install all dependencies.
 - To run the application in development mode, run `npm run develop`.
 
-## Screenshot
+## Video Demonstration
 
-![Screenshot](#)
+This is a demonstration of the application using `npm` to run the application in development mode. Heroku deployment was not possible due to errors. Still trying to troubleshoot.
 
 ## Link to Deployed Application
 
-[Book Search Engine](#)
+The link below is to the Heroku deployment of the application. The application is not fully functional due to errors.
+
+[Book Search Engine](https://jo-book-search-engine.herokuapp.com/)
