@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
 import { GET_ME } from '../utils/queries';
 import { useQuery, useMutation } from '@apollo/client';
-import { DELETE_BOOK } from '../utils/mutations';
+import { REMOVE_BOOK } from '../utils/mutations';
 import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
 const SavedBooks = () => {
   const [userData, setUserData] = useState({});
   const { loading, data } = useQuery(GET_ME);
-  const [deleteBook, { err, resp }] = useMutation(DELETE_BOOK);
+  const [deleteBook, { err, resp }] = useMutation(REMOVE_BOOK);
   console.log(userData);
 
   useEffect(() => {
